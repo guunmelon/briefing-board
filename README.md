@@ -1,7 +1,36 @@
-# AI 브리핑 보드 — Windows 바탕화면 위젯 (프로토타입 v6.2)
+# Briefing Board (`briefing-board`)
 
-> 📐 **실서비스 구현 설계서**: [`docs/implementation-spec.md`](docs/implementation-spec.md)
-> (확정: WebView2 네이티브 + iCloud 읽기 전용 CalDAV + 앱 내장 RSS 폴링)
+> **실시간 일정·기상·주식·스포츠와 뉴스레터를 한곳에 담은 AI 브리핑 보드 위젯 (Windows Native & Web)**  
+> 📐 **실서비스 구현 설계서**: [`docs/implementation-spec.md`](docs/implementation-spec.md) | 🚀 **CI/CD 가이드**: [`docs/CI-CD.md`](docs/CI-CD.md)
+
+[![CI Pipeline](https://img.shields.io/badge/CI-GitHub%20Actions-blue?logo=githubactions&logoColor=white)](.github/workflows/ci.yml)
+[![Node.js](https://img.shields.io/badge/Node.js-18%20%7C%2020%20%7C%2022-green?logo=nodedotjs)](package.json)
+[![Tests](https://img.shields.io/badge/Tests-205%20Passed-brightgreen)](tools/)
+[![Platform](https://img.shields.io/badge/Platform-Web%20%7C%20Windows-lightgrey)](publish/win-x64/)
+
+---
+
+## ⚡ 빠른 시작 (Quick Start)
+
+### 1. 원클릭 실행 (Windows)
+* 바탕화면 어디서나 **`start.bat`** 파일을 더블클릭하면 네이버 웨일 브라우저(또는 기본 브라우저)로 자동 실행됩니다.
+
+### 2. 개발 및 테스트 실행 (CLI)
+```bash
+# 의존성 설치
+npm install
+
+# 번들 빌드
+npm run build
+
+# 전체 205개 테스트 전수 검증
+npm test
+
+# 로컬 개발 서버 기동 (포트 8420)
+npm start
+```
+
+---
 
 바탕화면에 띄워두는 **반투명 브리핑 보드**. 하나의 **Board** 안에 독립 위젯 **3개**가 있고, AI가 보드 전체의 균형(크기·배치)만 관리하는 구조입니다.
 
