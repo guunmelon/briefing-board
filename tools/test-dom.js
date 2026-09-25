@@ -99,6 +99,11 @@ const wait = ms => new Promise(r => setTimeout(r, ms));
   if (modalClose) modalClose.click();
   await wait(150);
 
+  // GitHub Pages 정적 호스팅 무결성 검증 (외부 의존성 제로 & 단일 파일 번들)
+  assert('GitHub Pages 번들: 인라인 CSS 및 자바스크립트 내장', html.includes('<style>') && html.includes('<script>'));
+  assert('GitHub Pages 번들: 외부 CDN 링크 태그 없음 (차단 방지)', !/<link[^>]+rel=["']stylesheet["'][^>]+href=["']https?:/i.test(html));
+  assert('GitHub Pages 번들: 단일 배포 파일 용량 건전 (100KB~1MB)', html.length > 100000 && html.length < 1000000, String(html.length) + ' bytes');
+
   assert('에러 누적 없음', errors.length === 0, errors.join(' | '));
 
   dom.window.close();

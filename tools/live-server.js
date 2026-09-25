@@ -1415,6 +1415,16 @@ function buildInfo(){
 /* ================= HTTP 서버 ================= */
 const server = http.createServer(async (req, res) => {
   try {
+    if (req.method === 'OPTIONS') {
+      res.writeHead(204, {
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+        'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+        'Access-Control-Max-Age': '86400',
+      });
+      res.end();
+      return;
+    }
     const u = new URL(req.url, 'http://x');
     const pathname = decodeURIComponent(u.pathname);
     const q = Object.fromEntries(u.searchParams);

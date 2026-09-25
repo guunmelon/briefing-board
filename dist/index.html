@@ -3541,17 +3541,42 @@ body.resizing-v{ cursor:ns-resize !important; user-select:none; }
     // 1) 네이티브/호스트 모드
     const h = window.__BRIEFING_HOST__;
     if (h && h.apiBase) { LIVE = { base: String(h.apiBase).replace(/\/+$/, '') }; return LIVE; }
-    // 2) http(s) 서빙(미니 라이브 서버/개발) — /api/health 확인
+    // 2) 사용자 지정 API 서버 주소 (설정에 등록된 경우)
+    if (state.customApiBase) {
+      try {
+        const ctl = new AbortController(); const t = setTimeout(() => ctl.abort(), 2000);
+        const r = await fetch(state.customApiBase.replace(/\/+$/, '') + '/api/health', { signal: ctl.signal, cache: 'no-store' });
+        clearTimeout(t);
+        if (r.ok){
+          LIVE = { base: state.customApiBase.replace(/\/+$/, '') };
+          if (!h) window.__BRIEFING_HOST__ = { apiBase: LIVE.base, web: true };
+          return LIVE;
+        }
+      } catch (e) {}
+    }
+    // 3) http(s) 서빙(미니 라이브 서버/개발) — location.origin 확인
     if (location.protocol === 'http:' || location.protocol === 'https:'){
       const base = location.origin;
       try {
-        const ctl = new AbortController(); const t = setTimeout(() => ctl.abort(), 2500);
+        const ctl = new AbortController(); const t = setTimeout(() => ctl.abort(), 2000);
         const r = await fetch(base + '/api/health', { signal: ctl.signal, cache: 'no-store' });
         clearTimeout(t);
         if (r.ok){
           LIVE = { base };
-          // 미니 라이브 서버(native 에뮬) → 설정에 iCloud 연결 입력칸이 뜨도록 호스트 모드로 승격
           if (!h) window.__BRIEFING_HOST__ = { apiBase: base, web: true };
+          return LIVE;
+        }
+      } catch (e) {}
+    }
+    // 4) 로컬 컴패니언 서버 (GitHub Pages / 외부 웹 배포 시 PC의 localhost:8420 자동 탐색)
+    if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1'){
+      try {
+        const ctl = new AbortController(); const t = setTimeout(() => ctl.abort(), 1200);
+        const r = await fetch('http://127.0.0.1:8420/api/health', { signal: ctl.signal, cache: 'no-store' });
+        clearTimeout(t);
+        if (r.ok){
+          LIVE = { base: 'http://127.0.0.1:8420' };
+          if (!h) window.__BRIEFING_HOST__ = { apiBase: 'http://127.0.0.1:8420', web: true };
           return LIVE;
         }
       } catch (e) {}
