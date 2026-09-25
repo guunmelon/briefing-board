@@ -1,0 +1,24 @@
+{
+  "name": "briefing-board",
+  "version": "1.0.0",
+  "description": "AI Briefing Board — Realtime Dashboard & Desktop Widget",
+  "private": true,
+  "main": "tools/live-server.js",
+  "scripts": {
+    "build": "node tools/build.js",
+    "test": "node tools/test-core.js && node tools/test-patch.js && node tools/test-dom.js && node tools/test-native.js",
+    "test:core": "node tools/test-core.js",
+    "test:patch": "node tools/test-patch.js",
+    "test:dom": "node tools/test-dom.js",
+    "test:native": "node tools/test-native.js",
+    "start": "node tools/live-server.js --port 8420",
+    "check": "npm run build && npm test",
+    "ci": "npm run build && npm test"
+  },
+  "devDependencies": {
+    "jsdom": "^24.1.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

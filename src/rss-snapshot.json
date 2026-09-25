@@ -1,0 +1,405 @@
+{
+ "generated": "2026-09-09T07:10:35.087Z",
+ "sources": [],
+ "topics": {},
+ "feeds": {
+  "hybrid:mancity": {
+   "ok": true,
+   "count": 6,
+   "notes": []
+  },
+  "hybrid:bitcoin": {
+   "ok": true,
+   "count": 6,
+   "notes": []
+  },
+  "hybrid:minecraft": {
+   "ok": true,
+   "count": 6,
+   "notes": []
+  },
+  "hybrid:birds": {
+   "ok": true,
+   "count": 6,
+   "notes": []
+  },
+  "economist:business": {
+   "ok": true,
+   "count": 3
+  },
+  "economist:science-and-technology": {
+   "ok": true,
+   "count": 3
+  },
+  "economist:technology-quarterly": {
+   "ok": true,
+   "count": 3
+  },
+  "economist:leaders": {
+   "ok": true,
+   "count": 3
+  }
+ },
+ "items": [
+  {
+   "title": "Haaland double gives Manchester City ideal Champions League start in Porto",
+   "link": "https://www.theguardian.com/football/2026/sep/08/porto-manchester-city-champions-league-match-report",
+   "pub": "Tue, 08 Sep 2026 21:08:19 GMT",
+   "src": "Football | The Guardian",
+   "desc": "<p>Enzo Maresca admitted a liking for the “boom-boom” of house music in the buildup to this match, then enjoyed the sweet notes of victory having overseen a gritty performance from his Manchester City side in incessant rain.</p><p>City had lost six of their past nine away games in the competition, and been beaten in the 2021 Champions League final at this ve",
+   "img": "https://i.guim.co.uk/img/media/b7faec214ad59df768ccfd2d1fa4751f87627218/129_0_2062_1650/master/2062.jpg?width=140&quality=85&auto=format&fit=max&s=b148415017b9801c2a8e8bb7e560f818",
+   "topic": "mancity",
+   "kind": "rss"
+  },
+  {
+   "title": "Man City-bound 16-year-old Cavan Sullivan is MLS’s chaotic revelation",
+   "link": "https://www.theguardian.com/football/2026/sep/08/cavan-sullivan-analyisis-mls-philadelphia-union",
+   "pub": "Tue, 08 Sep 2026 09:00:53 GMT",
+   "src": "Football | The Guardian",
+   "desc": "<p>The Philadelphia Union midfielder has gotten his longest run of game time since turning pro, and the data is tantalizing</p><p>There’s a <a href=\"https://x.com/usmntonly/status/1650252182741037061\">video</a> from a United States U-15 camp three years ago that will make your head spin. It’s a routine training session for the boys on the pitch except one, a",
+   "img": "https://i.guim.co.uk/img/media/25ba936e223ba1f0411546abb4af4b54bbb04855/0_30_2596_2076/master/2596.jpg?width=140&quality=85&auto=format&fit=max&s=5fc6e29f156a9b97a72b2a50fee21b83",
+   "topic": "mancity",
+   "kind": "rss"
+  },
+  {
+   "title": "맨체스터 시티가 포르투를 방문합니다.",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Ldm44X2RzVk90ckVHbmVKWDNMMjk5OXNlMExFRUNDenQxLVp0SnVpbkxWQ1Qwc2lFWW5yaWFRSmpwaFhCY1VmQ1Nwa3NrX3BJcFRjSzh4N2lXNXpsTk5jUG9hYTNvdEdj?oc=5",
+   "pub": "Wed, 09 Sep 2026 05:30:21 GMT",
+   "src": "Vietnam.vn",
+   "desc": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Ldm44X2RzVk90ckVHbmVKWDNMMjk5OXNlMExFRUNDenQxLVp0SnVpbkxWQ1Qwc2lFWW5yaWFRSmpwaFhCY1VmQ1Nwa3NrX3BJcFRjSzh4N2lXNXpsTk5jUG9hYTNvdEdj?oc=5\" target=\"_blank\">맨체스터 시티가 포르투를 방문합니다.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vietnam.vn</font>",
+   "img": null,
+   "topic": "mancity",
+   "kind": "rss"
+  },
+  {
+   "title": "이강이 어쩌나, '1호 AS' 받은 절친도 이탈?…맨체스터 시티가 러브콜! EPL 복수 클럽이 노린다 \"내년 여름이 현실적인 시기\"",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5aSVlXenR2MXRjT00xaVhpTzhrN2UtVm5CLVJ3d1hGNlhyX01SbHBQT2VGVFZWUEZwVGJTNVZkRWtocEpnazFEVFR5YjNBTGtaN0prZm1n?oc=5",
+   "pub": "Wed, 09 Sep 2026 04:02:00 GMT",
+   "src": "Nate News",
+   "desc": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE5aSVlXenR2MXRjT00xaVhpTzhrN2UtVm5CLVJ3d1hGNlhyX01SbHBQT2VGVFZWUEZwVGJTNVZkRWtocEpnazFEVFR5YjNBTGtaN0prZm1n?oc=5\" target=\"_blank\">이강이 어쩌나, '1호 AS' 받은 절친도 이탈?…맨체스터 시티가 러브콜! EPL 복수 클럽이 노린다 \"내년 여름이 현실적인 시기\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nate News</font>",
+   "img": null,
+   "topic": "mancity",
+   "kind": "rss"
+  },
+  {
+   "title": "'전반 무득점'에도 꿈쩍하지 않은 마레스카, \"그대로 계속해\"...'홀란 멀티골'로 증명한 맨시티의 자신감 - 머니투데이",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1acVhrT2ZzTG9aUlJCbDZCcVREeWsxX0ZqMzBQazc2Nk1BN0Izb0tmd292dkk1RjNaeG9lWmxld0pWaTBvdVVSaG00eTZaWGliQ0haVllGTGFPNUNZc0xmNGJVM29GTFRiRjdwTDNiUdIBb0FVX3lxTE1acVhrT2ZzTG9aUlJCbDZCcVREeWsxX0ZqMzBQazc2Nk1BN0Izb0tmd292dkk1RjNaeG9lWmxld0pWaTBvdVVSaG00eTZaWGliQ0haVllGTGFPNUNZc0xmNGJVM29GTFRiRjdwTDNiUQ?oc=5",
+   "pub": "Wed, 09 Sep 2026 01:41:00 GMT",
+   "src": "머니투데이",
+   "desc": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE1acVhrT2ZzTG9aUlJCbDZCcVREeWsxX0ZqMzBQazc2Nk1BN0Izb0tmd292dkk1RjNaeG9lWmxld0pWaTBvdVVSaG00eTZaWGliQ0haVllGTGFPNUNZc0xmNGJVM29GTFRiRjdwTDNiUdIBb0FVX3lxTE1acVhrT2ZzTG9aUlJCbDZCcVREeWsxX0ZqMzBQazc2Nk1BN0Izb0tmd292dkk1RjNaeG9lWmxld0pWaTBvdVVSaG00eTZaWGliQ0haVllGTGFPNUNZc0xmNGJVM29GTFRiRjdwTDNiUQ?oc=5\" t",
+   "img": null,
+   "topic": "mancity",
+   "kind": "rss"
+  },
+  {
+   "title": "황인범의 포르투, '홀란'의 폭격에 침몰",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZDI0b1BFSEtMZWI5aUNIZTM2c3FTVXFGNm9pd0lYVndxS0lUOW90dEFqTnF1WEx2bEpwTjZ0bmxUMldHdmJmWGJpaE4yLTZEckF0X2hwSDBqMDdGbmhCNnFFTVNrNjM1YXdnSGZEVlVONzJiXzFadUlZVzYyNzczUtIBgAFBVV95cUxNZDI0b1BFSEtMZWI5aUNIZTM2c3FTVXFGNm9pd0lYVndxS0lUOW90dEFqTnF1WEx2bEpwTjZ0bmxUMldHdmJmWGJpaE4yLTZEckF0X2hwSDBqMDdGbmhCNnFFTVNrNjM1YXdnSGZEVlVONzJiXzFadUlZVzYyNzczUg?oc=5",
+   "pub": "Tue, 08 Sep 2026 23:01:20 GMT",
+   "src": "뉴데일리",
+   "desc": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxNZDI0b1BFSEtMZWI5aUNIZTM2c3FTVXFGNm9pd0lYVndxS0lUOW90dEFqTnF1WEx2bEpwTjZ0bmxUMldHdmJmWGJpaE4yLTZEckF0X2hwSDBqMDdGbmhCNnFFTVNrNjM1YXdnSGZEVlVONzJiXzFadUlZVzYyNzczUtIBgAFBVV95cUxNZDI0b1BFSEtMZWI5aUNIZTM2c3FTVXFGNm9pd0lYVndxS0lUOW90dEFqTnF1WEx2bEpwTjZ0bmxUMldHdmJmWGJpaE4yLTZEckF0X2hwSDBqMDdGbmhCNnFFTV",
+   "img": null,
+   "topic": "mancity",
+   "kind": "rss"
+  },
+  {
+   "title": "Here’s what happened in crypto today",
+   "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "pub": "Wed, 09 Sep 2026 05:51:21 +0000",
+   "src": "Cointelegraph.com News",
+   "desc": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+   "img": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg",
+   "topic": "bitcoin",
+   "kind": "rss"
+  },
+  {
+   "title": "New York town weighs crypto mining and AI data center ban",
+   "link": "https://cointelegraph.com/news/new-york-plattsburgh-crypto-mining-ai-ban?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "pub": "Tue, 08 Sep 2026 21:33:49 +0000",
+   "src": "Cointelegraph.com News",
+   "desc": "One of the first towns in the US to ban Bitcoin mining for 18 months is considering another temporary moratorium extending to data centers and other crypto mining operations.",
+   "img": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M21D11KB4BXD9GBM5H39S2WK/hi-anti-dumping-policy-in-crypto-bitcoin-miner.jpg",
+   "topic": "bitcoin",
+   "kind": "rss"
+  },
+  {
+   "title": "Bitcoin faces key support test at $78.3K as US crude oil hits three-month high",
+   "link": "https://cointelegraph.com/markets/bitcoin-faces-key-support-test-at-783k-as-us-crude-oil-hits-three-month-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "pub": "Tue, 08 Sep 2026 15:41:11 +0000",
+   "src": "Cointelegraph.com News",
+   "desc": "Bitcoin fell with US stocks on the opening of Tuesday’s Wall Street trading session as analysis warns that BTC price support at $78,300 must hold.",
+   "img": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M20T148B6W28RQ4JBENHW4HR/hi-how-to-make-a-profit-when-bitcoin-prices-are-stagnant-oil-1.jpg",
+   "topic": "bitcoin",
+   "kind": "rss"
+  },
+  {
+   "title": "Is Bitcoin too volatile to risk your retirement on?",
+   "link": "https://cointelegraph.com/magazine/is-bitcoin-too-volatile-to-risk-your-retirement-on?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "pub": "Tue, 08 Sep 2026 13:30:00 +0000",
+   "src": "Cointelegraph.com News",
+   "desc": "Bitcoin believers see it as an almost certain long-term investment, but retirement demands a different approach. How much crypto exposure is too much for your retirement account?",
+   "img": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1ZBNEHJ54QYSM9PS5HZF0CH/magazine-retire-early-with-crypto.jpg",
+   "topic": "bitcoin",
+   "kind": "rss"
+  },
+  {
+   "title": "Strategy skips Bitcoin buy to repurchase $176M of STRC preferred shares",
+   "link": "https://cointelegraph.com/news/strategy-skips-bitcoin-buy-repurchase-176m-strc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "pub": "Tue, 08 Sep 2026 12:51:00 +0000",
+   "src": "Cointelegraph.com News",
+   "desc": "Strategy repurchased $176 million worth of its STRC preferred stock and doubled the size of its digital securities repurchase program to $2 billion, while pausing on new Bitcoin buys.",
+   "img": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M20FPT8H132TZGKAJWQX1YBC/hi-michael-saylors-bitcoin-obsession-how-it-all-started-1.jpg",
+   "topic": "bitcoin",
+   "kind": "rss"
+  },
+  {
+   "title": "Mexico quadruple homicide tied to alleged Bitcoin robbery attempt",
+   "link": "https://cointelegraph.com/news/mexico-quadruple-homicide-alleged-bitcoin-robbery?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "pub": "Tue, 08 Sep 2026 12:41:14 +0000",
+   "src": "Cointelegraph.com News",
+   "desc": "Two suspects face a Wednesday hearing over four killings allegedly linked to a crypto wallet believed to hold millions of dollars in Bitcoin.",
+   "img": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M20CE9T36VRN8990HWRW8AJS/hi-ledger-is-in-deep-trouble-that-may-only-just-be-starting.jpg",
+   "topic": "bitcoin",
+   "kind": "rss"
+  },
+  {
+   "title": "Minecraft update 26.3 is now out in pre-release, as Mojang makes \"final touches\" to the Dappled Forest",
+   "link": "https://www.pcgamesn.com/minecraft/update-26-3-prerelease-java",
+   "pub": "Thu, 03 Sep 2026 11:51:58 +0000",
+   "src": "PCGamesN",
+   "desc": "The first Minecraft 26.3 pre-release build is live now for Java edition, with the new Dappled Forest biome and a range of decorative tools.",
+   "img": "https://www.pcgamesn.com/wp-content/sites/pcgamesn/2026/09/minecraft-update-26-3-prerelease-1-out-now-java.jpg",
+   "topic": "minecraft",
+   "kind": "rss"
+  },
+  {
+   "title": "Claim an in-game item with the Treasure Hunt watch challenge!",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0zcFA1SzUwekdicFYtdmlJbW85SFFBLXRranNVYnZnWmJWQVlkcC1pRHp5NEpsejN4R3R3REFNR2lpWHdaMl9TYnZvcTBGdHdEWUgwLUxROFFadXNSZU5HWXNFb2hSdUNzNGctNDZEOHlWNWhES0xadQ?oc=5",
+   "pub": "Fri, 04 Sep 2026 17:16:18 GMT",
+   "src": "Minecraft",
+   "desc": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE0zcFA1SzUwekdicFYtdmlJbW85SFFBLXRranNVYnZnWmJWQVlkcC1pRHp5NEpsejN4R3R3REFNR2lpWHdaMl9TYnZvcTBGdHdEWUgwLUxROFFadXNSZU5HWXNFb2hSdUNzNGctNDZEOHlWNWhES0xadQ?oc=5\" target=\"_blank\">Claim an in-game item with the Treasure Hunt watch challenge!</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Minecraft</font>",
+   "img": null,
+   "topic": "minecraft",
+   "kind": "rss"
+  },
+  {
+   "title": "Minecraft Modding and Logic Lab",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZFlJX2xwNGFFYjFnUTVLb1E2WURidkI4S2o2amR2c3I5MmxpVVdsckEwdHc1VElYWmlQOWpZVHRZVlFvVTBqeUw0elhfZ2YyVVdnVG9qZEdMaS00UGtIOTI4WF9CWkJZbklaZWJ4VEhud3lXT24xY2F0aGQ5VVpYT0ZIZHlCQQ?oc=5",
+   "pub": "Fri, 04 Sep 2026 16:53:17 GMT",
+   "src": "RaleighNC.gov",
+   "desc": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxPZFlJX2xwNGFFYjFnUTVLb1E2WURidkI4S2o2amR2c3I5MmxpVVdsckEwdHc1VElYWmlQOWpZVHRZVlFvVTBqeUw0elhfZ2YyVVdnVG9qZEdMaS00UGtIOTI4WF9CWkJZbklaZWJ4VEhud3lXT24xY2F0aGQ5VVpYT0ZIZHlCQQ?oc=5\" target=\"_blank\">Minecraft Modding and Logic Lab</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">RaleighNC.gov</font>",
+   "img": null,
+   "topic": "minecraft",
+   "kind": "rss"
+  },
+  {
+   "title": "Minecraft",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12Q3BwM2U4UHk5QThrLTN0ZjVxcWRndG1GbkN0dk5Bd18tS1drenRQNW9BQnFod0UtSmNKRWE5QU0xTUJhS0tTQW9INkJTYmFvNTdQaTdENVNoS0pVTF9hUTZsNHpzR3NKcHc?oc=5",
+   "pub": "Fri, 04 Sep 2026 05:00:00 GMT",
+   "src": "Britannica",
+   "desc": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE12Q3BwM2U4UHk5QThrLTN0ZjVxcWRndG1GbkN0dk5Bd18tS1drenRQNW9BQnFod0UtSmNKRWE5QU0xTUJhS0tTQW9INkJTYmFvNTdQaTdENVNoS0pVTF9hUTZsNHpzR3NKcHc?oc=5\" target=\"_blank\">Minecraft</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Britannica</font>",
+   "img": null,
+   "topic": "minecraft",
+   "kind": "rss"
+  },
+  {
+   "title": "'Technoblade Never Dies' Documentary Funded by Riot Games, Hypixel Studios",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZTdQN3FQVXk4bUdkVU5ELXNfNnEwQ2tZaUhWTFlYLXNFRFlmX3pBZFRxYXkzSEhKaEg1QzFaZjYtbFExNEdtNnNvbk1TQ0JuUFJZT2pzaHJ4a3RFYmtOTnFPYTlpZ1RSc1BXdGdxWUk2eHlGSTlTanNoZmd0ZDM0QVJKNjI0SUd0bTRKVEYzQWZfczdEUzYtM3pYM3kxcXNDSDRoeQ?oc=5",
+   "pub": "Thu, 03 Sep 2026 14:22:00 GMT",
+   "src": "Variety",
+   "desc": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxOZTdQN3FQVXk4bUdkVU5ELXNfNnEwQ2tZaUhWTFlYLXNFRFlmX3pBZFRxYXkzSEhKaEg1QzFaZjYtbFExNEdtNnNvbk1TQ0JuUFJZT2pzaHJ4a3RFYmtOTnFPYTlpZ1RSc1BXdGdxWUk2eHlGSTlTanNoZmd0ZDM0QVJKNjI0SUd0bTRKVEYzQWZfczdEUzYtM3pYM3kxcXNDSDRoeQ?oc=5\" target=\"_blank\">'Technoblade Never Dies' Documentary Funded by Riot Games, Hypixe",
+   "img": null,
+   "topic": "minecraft",
+   "kind": "rss"
+  },
+  {
+   "title": "Is Minecraft down? Users get Error code drowned minecraft when signing on",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUU5jNU0wN0NlMmZpOG9EaDRrMGN6UGFpSTdMUzlhU2xYV2JMcTRfNmhGZS1uWHg1UjNCdXBQaTA5MV82cWhJQUJHV0VRaTBKV1ByUzJlSW1ldF9WTThNaWlNNnhzTENJelc2LXNaelpoVHJPd1lKd2VWMXJidERaVUtqU0pCajNteU1n?oc=5",
+   "pub": "Wed, 02 Sep 2026 12:43:00 GMT",
+   "src": "app.com",
+   "desc": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUU5jNU0wN0NlMmZpOG9EaDRrMGN6UGFpSTdMUzlhU2xYV2JMcTRfNmhGZS1uWHg1UjNCdXBQaTA5MV82cWhJQUJHV0VRaTBKV1ByUzJlSW1ldF9WTThNaWlNNnhzTENJelc2LXNaelpoVHJPd1lKd2VWMXJidERaVUtqU0pCajNteU1n?oc=5\" target=\"_blank\">Is Minecraft down? Users get Error code drowned minecraft when signing on</a>&nbsp;&nbsp;<font colo",
+   "img": null,
+   "topic": "minecraft",
+   "kind": "rss"
+  },
+  {
+   "title": "These States are Seeing the Biggest Migration of Birds Tonight",
+   "link": "https://www.birdwatchingdaily.com/beginners/birding-faq/these-states-are-seeing-the-biggest-migration-of-birds-tonight/",
+   "pub": "Wed, 26 Aug 2026 21:06:41 +0000",
+   "src": "BirdWatching",
+   "desc": "Fall migration is officially getting underway across the United States, and more than 200 million birds are expected to take to the skies this week, Read More \"These States are Seeing the Biggest Migration of Birds Tonight\"",
+   "img": "https://www.birdwatchingdaily.com/wp-content/uploads/2026/08/Birds-migrating-as-night-falls.jpg",
+   "topic": "birds",
+   "kind": "rss"
+  },
+  {
+   "title": "How Ornithologists are Tracking Migratory Birds at Night",
+   "link": "https://www.birdwatchingdaily.com/beginners/birding-faq/how-ornithologists-are-tracking-migratory-birds-at-night/",
+   "pub": "Wed, 26 Aug 2026 20:35:22 +0000",
+   "src": "BirdWatching",
+   "desc": "As fall migration gets underway, we take a look at how ornithologists track birds as they migrate through the night. Every fall, millions of birds Read More \"How Ornithologists are Tracking Migratory Birds at Night\"",
+   "img": "https://www.birdwatchingdaily.com/wp-content/uploads/2026/08/How-ornithologists-are-tracking-migratory-birds.jpg",
+   "topic": "birds",
+   "kind": "rss"
+  },
+  {
+   "title": "Why are Prothonotary Warblers Choosing Kansas as Their new Home",
+   "link": "https://www.birdwatchingdaily.com/news/birdwatching/why-are-prothonotary-warblers-choosing-kansas-as-their-new-home/",
+   "pub": "Tue, 25 Aug 2026 16:38:33 +0000",
+   "src": "BirdWatching",
+   "desc": "Birdwatchers in Kansas are seeing a bright yellow visitor that, until recently, wasn t expected to breed in the state. The bird is the Prothonotary Warbler Read More \"Why are Prothonotary Warblers Choosing Kansas as Their new Home\"",
+   "img": "https://www.birdwatchingdaily.com/wp-content/uploads/2026/08/New-Project-2.jpg",
+   "topic": "birds",
+   "kind": "rss"
+  },
+  {
+   "title": "Why is the Male Red Cardinal is so Bright you may be surprised",
+   "link": "https://www.birdwatchingdaily.com/beginners/birding-faq/why-is-the-male-red-cardinal-is-so-bright-you-may-be-surprised/",
+   "pub": "Mon, 24 Aug 2026 12:46:44 +0000",
+   "src": "BirdWatching",
+   "desc": "Like any avid birder, spotting brightly coloured wildlife is high on my list of goals when venturing into the wilderness. One species that offers particularly Read More \"Why is the Male Red Cardinal is so Bright you may be surprised\"",
+   "img": "https://www.birdwatchingdaily.com/wp-content/uploads/2026/08/pexels-aaron-j-hill-3434251-8848553-scaled.jpg",
+   "topic": "birds",
+   "kind": "rss"
+  },
+  {
+   "title": "Millions of birds are migrating across the US as Fall migration begins to peak",
+   "link": "https://www.birdwatchingdaily.com/beginners/migration/millions-of-birds-are-migrating-across-the-us-as-fall-migration-begins-to-peak/",
+   "pub": "Tue, 18 Aug 2026 16:03:38 +0000",
+   "src": "BirdWatching",
+   "desc": "If you step outside tonight and look up at the sky, you probably won t see much happening. But high above you, millions of birds could Read More \"Millions of birds are migrating across the US as Fall migration begins to peak\"",
+   "img": "https://www.birdwatchingdaily.com/wp-content/uploads/2026/08/pexels-aydin-photography-298758980-14238210-scaled.jpg",
+   "topic": "birds",
+   "kind": "rss"
+  },
+  {
+   "title": "Hawks in Georgia",
+   "link": "https://www.birdwatchingdaily.com/beginners/birding-faq/hawks-in-georgia/",
+   "pub": "Sun, 10 May 2026 23:40:55 +0000",
+   "src": "BirdWatching",
+   "desc": "Is a goshawk the same as a hawk? What is a Buteo? How many hawks are there in Georgia? Well, in this article we try Read More \"Hawks in Georgia\"",
+   "img": "https://www.birdwatchingdaily.com/wp-content/uploads/2025/07/red-tailed-hawk-by-Susan-Kirby.jpg",
+   "topic": "birds",
+   "kind": "rss"
+  },
+  {
+   "title": "Chinese carmakers are bringing their factories to the world",
+   "link": "https://www.economist.com/business/2026/09/07/chinese-carmakers-are-bringing-their-factories-to-the-world",
+   "pub": "Mon, 07 Sep 2026 19:59:43 +0000",
+   "src": "Business",
+   "desc": "Incumbents will need to hit the accelerator to compete",
+   "img": null,
+   "topic": "econ-business",
+   "kind": "rss"
+  },
+  {
+   "title": "VW’s surprise job-slashing deal is a big win for its bosses",
+   "link": "https://www.economist.com/business/2026/09/04/vws-surprise-job-slashing-deal-is-a-big-win-for-its-bosses",
+   "pub": "Fri, 04 Sep 2026 18:09:55 +0000",
+   "src": "Business",
+   "desc": "And a blow to Germany’s co-operative model of industrial relations",
+   "img": null,
+   "topic": "econ-business",
+   "kind": "rss"
+  },
+  {
+   "title": "How Oura’s rings found their way onto millions of fingers",
+   "link": "https://www.economist.com/business/2026/09/04/how-ouras-rings-found-their-way-onto-millions-of-fingers",
+   "pub": "Fri, 04 Sep 2026 17:21:12 +0000",
+   "src": "Business",
+   "desc": "Its business is booming as consumers look to take charge of their health",
+   "img": null,
+   "topic": "econ-business",
+   "kind": "rss"
+  },
+  {
+   "title": "How to cool buildings on the cheap",
+   "link": "https://www.economist.com/science-and-technology/2026/09/08/how-to-cool-buildings-on-the-cheap",
+   "pub": "Tue, 08 Sep 2026 15:45:06 +0000",
+   "src": "Science & technology",
+   "desc": "New paints promise to get rid of heat without using energy",
+   "img": null,
+   "topic": "econ-science",
+   "kind": "rss"
+  },
+  {
+   "title": "Satellites get a new type of armour",
+   "link": "https://www.economist.com/science-and-technology/2026/09/07/satellites-get-a-new-type-of-armour",
+   "pub": "Mon, 07 Sep 2026 17:07:23 +0000",
+   "src": "Science & technology",
+   "desc": "Composite tiles, fabrics and foams may bring effective shielding from orbital debris",
+   "img": null,
+   "topic": "econ-science",
+   "kind": "rss"
+  },
+  {
+   "title": "Should you avoid blue light before bed?",
+   "link": "https://www.economist.com/science-and-technology/2026/09/04/should-you-avoid-blue-light-before-bed",
+   "pub": "Fri, 04 Sep 2026 17:17:58 +0000",
+   "src": "Science & technology",
+   "desc": "Blueness may be less important than brightness",
+   "img": null,
+   "topic": "econ-science",
+   "kind": "rss"
+  },
+  {
+   "title": "Acknowledgments",
+   "link": "https://www.economist.com/technology-quarterly/2025/02/26/acknowledgments",
+   "pub": "Wed, 26 Feb 2025 20:47:35 +0000",
+   "src": "Technology Quarterly",
+   "desc": "",
+   "img": null,
+   "topic": "econ-techq",
+   "kind": "rss"
+  },
+  {
+   "title": "Epigenetic editors are a gentler form of gene editing",
+   "link": "https://www.economist.com/technology-quarterly/2025/02/24/epigenetic-editors-are-a-gentler-form-of-gene-editing",
+   "pub": "Mon, 24 Feb 2025 17:53:55 +0000",
+   "src": "Technology Quarterly",
+   "desc": "But they may prove just as powerful",
+   "img": null,
+   "topic": "econ-techq",
+   "kind": "rss"
+  },
+  {
+   "title": "Gene editing can still change the world",
+   "link": "https://www.economist.com/technology-quarterly/2025/02/21/gene-editing-can-still-change-the-world",
+   "pub": "Fri, 21 Feb 2025 17:47:17 +0000",
+   "src": "Technology Quarterly",
+   "desc": "But it will take time for scientists to master the technology",
+   "img": null,
+   "topic": "econ-techq",
+   "kind": "rss"
+  },
+  {
+   "title": "What should Germany do about its rising right?",
+   "link": "https://www.economist.com/leaders/2026/09/08/what-should-germany-do-about-its-rising-right",
+   "pub": "Tue, 08 Sep 2026 17:27:45 +0000",
+   "src": "Leaders",
+   "desc": "A stunning success for the AfD in Saxony-Anhalt",
+   "img": null,
+   "topic": "econ-leaders",
+   "kind": "rss"
+  },
+  {
+   "title": "The moral panic over data centres is foolish",
+   "link": "https://www.economist.com/leaders/2026/09/03/the-moral-panic-over-data-centres-is-foolish",
+   "pub": "Thu, 03 Sep 2026 14:40:01 +0000",
+   "src": "Leaders",
+   "desc": "A backlash fuelled by misinformation and misunderstanding",
+   "img": null,
+   "topic": "econ-leaders",
+   "kind": "rss"
+  },
+  {
+   "title": "What the Bayeux tapestry teaches about surviving against the odds",
+   "link": "https://www.economist.com/leaders/2026/09/03/what-the-bayeux-tapestry-teaches-about-surviving-against-the-odds",
+   "pub": "Thu, 03 Sep 2026 13:08:54 +0000",
+   "src": "Leaders",
+   "desc": "A 950-year-old piece of linen yields lessons for modern viewers",
+   "img": null,
+   "topic": "econ-leaders",
+   "kind": "rss"
+  }
+ ]
+}

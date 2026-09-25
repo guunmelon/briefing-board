@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>ServerCheck</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../src/BriefingBoard.Core/BriefingBoard.Core.csproj" />
+  </ItemGroup>
+
+  <!-- 플랫폼 중립 Host 부품을 그대로 링크해 리눅스에서 서버·API 검증 -->
+  <ItemGroup>
+    <Compile Include="../../src/BriefingBoard.Host/HttpMini.cs" Link="Host/HttpMini.cs" />
+    <Compile Include="../../src/BriefingBoard.Host/NativeServer.cs" Link="Host/NativeServer.cs" />
+    <Compile Include="../../src/BriefingBoard.Host/Bridge.cs" Link="Host/Bridge.cs" />
+    <Compile Include="../../src/BriefingBoard.Host/Preferences.cs" Link="Host/Preferences.cs" />
+    <Compile Include="../../src/BriefingBoard.Host/AppPaths.cs" Link="Host/AppPaths.cs" />
+    <Compile Include="../../src/BriefingBoard.Host/CredentialSafe.cs" Link="Host/CredentialSafe.cs" />
+    <Compile Include="../../src/BriefingBoard.Host/CredentialUtil.cs" Link="Host/CredentialUtil.cs" />
+    <Compile Include="../../src/BriefingBoard.Host/AppLog.cs" Link="Host/AppLog.cs" />
+  </ItemGroup>
+</Project>

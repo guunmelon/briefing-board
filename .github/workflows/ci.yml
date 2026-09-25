@@ -1,0 +1,160 @@
+name: CI Pipeline (Build & Test)
+
+on:
+  push:
+    branches:
+      - main
+      - master
+      - 'release/**'
+      - 'feature/**'
+    tags:
+      - 'v*'
+  pull_request:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # ============================================================
+  # Job 1: Multi-OS & Multi-Node Test Matrix
+  # ============================================================
+  test:
+    name: Test on ${{ matrix.os }} (Node ${{ matrix.node-version }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        node-version: [18.x, 20.x, 22.x]
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Run Build
+        run: npm run build
+
+      - name: Verify Build Artifact
+        shell: bash
+        run: |
+          if [ ! -f "dist/index.html" ]; then
+            echo "::error::dist/index.html does not exist!"
+            exit 1
+          fi
+          SIZE=$(wc -c < "dist/index.html")
+          echo "Built dist/index.html size: $SIZE bytes"
+          if [ "$SIZE" -lt 100000 ]; then
+            echo "::error::dist/index.html is suspiciously small ($SIZE bytes)"
+            exit 1
+          fi
+
+      - name: Run Full Test Suite (205+ Tests)
+        run: npm test
+
+  # ============================================================
+  # Job 2: Build & Package Distributable Artifacts
+  # ============================================================
+  package:
+    name: Package Build Artifacts
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Build Standalone Web Dashboard
+        run: npm run build
+
+      - name: Prepare Distribution Package
+        shell: bash
+        run: |
+          mkdir -p release-bundle/web
+          mkdir -p release-bundle/windows
+          
+          # Copy Web deliverables
+          cp dist/index.html release-bundle/web/
+          
+          # Copy Windows Batch & Runner scripts
+          cp start.bat release-bundle/windows/ 2>/dev/null || true
+          cp create-desktop-shortcut.bat release-bundle/windows/ 2>/dev/null || true
+          cp open-browser.bat release-bundle/windows/ 2>/dev/null || true
+          cp -r publish/ release-bundle/windows/publish 2>/dev/null || true
+          
+          # Create zip archive
+          cd release-bundle && zip -r ../briefing-board-release.zip . && cd ..
+
+      - name: Upload Build Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: briefing-board-dist
+          path: |
+            dist/index.html
+            briefing-board-release.zip
+          retention-days: 30
+
+  # ============================================================
+  # Job 3: Automatic GitHub Pages Deployment (on main branch)
+  # ============================================================
+  deploy-pages:
+    name: Deploy to GitHub Pages
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+    needs: package
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Build Dashboard for Pages
+        run: npm run build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'dist'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

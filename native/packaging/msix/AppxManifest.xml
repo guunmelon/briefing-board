@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  BriefingBoard MSIX 매니페스트 (사이드로드/개발 배포용)
+  - Windows SDK 의 makeappx.exe 로 패킹한 뒤 서명 필요(아래 Build-Msix.ps1 참고).
+  - 패키지 자동 시작(Run 키)은 MSIX 격리로 제한될 수 있으므로,
+    트레이 자동 시작이 꼭 필요한 배포는 loose(폴더) 빌드를 기본으로 사용한다.
+  - Publisher 는 실제 서명 인증서 CN 과 일치해야 한다(기본: 로컬 테스트 인증서).
+-->
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+         xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+         xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+         IgnorableNamespaces="uap rescap">
+
+  <Identity Name="BriefingBoard"
+            Publisher="CN=Localhost, O=BriefingBoard, C=US"
+            Version="0.1.0.0" />
+
+  <Properties>
+    <DisplayName>BriefingBoard</DisplayName>
+    <PublisherDisplayName>BriefingBoard</PublisherDisplayName>
+    <Logo>assets\Square150x150Logo.png</Logo>
+    <Description>AI 브리핑 보드 — 바탕화면 뉴스·캘린더 위젯</Description>
+  </Properties>
+
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.26100.0" />
+  </Dependencies>
+
+  <Resources>
+    <Resource Language="ko-kr" />
+    <Resource Language="en-us" />
+  </Resources>
+
+  <Applications>
+    <Application Id="App"
+                 Executable="BriefingBoard.exe"
+                 EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements
+        DisplayName="BriefingBoard"
+        Square150x150Logo="assets\Square150x150Logo.png"
+        Square44x44Logo="assets\Square44x44Logo.png"
+        Description="AI 브리핑 보드"
+        BackgroundColor="transparent" />
+      <Extensions>
+        <uap:Extension Category="windows.appExecutionAlias"
+                       Executable="BriefingBoard.exe"
+                       EntryPoint="Windows.FullTrustApplication">
+          <uap:AppExecutionAlias>
+            <uap:ExecutionAlias Alias="BriefingBoard.exe" />
+          </uap:AppExecutionAlias>
+        </uap:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+
+  <Capabilities>
+    <rescap:Capability Name="runFullTrust" />
+  </Capabilities>
+</Package>
