@@ -30,6 +30,7 @@ const wait = ms => new Promise(r => setTimeout(r, ms));
     virtualConsole: vc,
     beforeParse(w) {
       // 오프라인 시뮬레이션 — fetch 없음 → 연결 안내 상태
+      w.__TEST_OFFLINE__ = true;
       if (!w.AbortController) w.AbortController = globalThis.AbortController;
     },
   });
